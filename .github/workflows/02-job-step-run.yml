@@ -34,7 +34,7 @@ jobs:
       - name: Step 2 - Fake test pass
         run: |
           echo "Test 1 passed good"
-          echo "Test 2 passed"
+          echo "Test 2 passed good"
           echo "All tests passed"
 
   # Job 3 waits for build AND test to finish (needs = dependency)
