@@ -20,7 +20,7 @@ jobs:
       - name: Print hello message
         run: echo "Hello from GitHub Actions"
       - name: Print hello message
-        run: echo "Hello from Ashraf"
+        run: echo "Hello from Ashraf1"
       - name: Print current date
         run: date
 
