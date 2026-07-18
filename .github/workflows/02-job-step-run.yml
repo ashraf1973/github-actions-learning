@@ -23,6 +23,8 @@ jobs:
 
       - name: Step 3 - Show file content
         run: cat build/status.txt
+      - name: Step 3 - Show file content
+        run: ls -al build
 
   # Job 2 runs at the same time as Job 1 (parallel)
   test:
@@ -31,8 +33,7 @@ jobs:
     steps:
       - name: Step 1 - Simulate a test
         run: echo "Running tests..."
-      - name: Step 1 - Simulate a test
-        run: ls -al build
+     
       - name: Step 2 - Fake test pass
         run: |
           echo "Test 1 passed good"
