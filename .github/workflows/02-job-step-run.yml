@@ -33,7 +33,7 @@ jobs:
         run: ls -al build
       - name: Step 2 - Fake test pass
         run: |
-          echo "Test 1 passed"
+          echo "Test 1 passed good"
           echo "Test 2 passed"
           echo "All tests passed"
 
