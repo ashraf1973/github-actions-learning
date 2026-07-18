@@ -5,7 +5,9 @@
 name: Job Step Run Demo
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   # Job 1 runs first (jobs in the same workflow run in parallel by default)
