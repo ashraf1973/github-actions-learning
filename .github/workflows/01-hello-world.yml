@@ -6,7 +6,9 @@ name: Hello World Workflow
 
 # workflow_dispatch = run manually from GitHub UI (Actions tab → Run workflow)
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   hello:
