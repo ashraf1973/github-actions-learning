@@ -20,7 +20,7 @@ jobs:
 
       - name: List files in the repository
         run: ls -la
-       - name: List files in the workflow
+      - name: List files in the workflow
         run: ls -la .github/workflows
 
       - name: Show README first line (if README exists)
