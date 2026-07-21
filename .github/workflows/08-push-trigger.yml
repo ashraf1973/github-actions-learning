@@ -12,9 +12,9 @@ on:
       - develop
     paths:
       # Only trigger when these paths change (optional filter)
-      - "**.yml"
-      - "**.py"
-      - "**.js"
+      - "**/*.yml"
+      - "**/*.py"
+      - "**/*.js"
       - "README.md"
 
 jobs:
