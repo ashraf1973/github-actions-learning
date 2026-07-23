@@ -52,7 +52,7 @@ jobs:
           docker run -d --name demo-app -p 8000:8000 student-demo-app:latest
           sleep 5
           curl -f http://localhost:8000 || (docker logs demo-app && exit 1)
-          echo "Containers is running and responding!"
+          echo "Container is running and responding!"
           docker stop demo-app
           docker rm demo-app
 
